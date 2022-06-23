@@ -1,0 +1,45 @@
+main {
+    margin: 40px 20px;
+}
+
+.selectbloc {
+    flex-direction: column;
+}
+
+.selectbloc h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btnfonct p{
+
+    color: white  ;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.btnfonct  {
+    background: #9356DC;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+@media screen and (max-width : 768px) 
+{
+
+}
+
+
+
+
+@media screen and (max-width : 991px) 
+{
+}
+
+
+
+@media screen and (min-width : 992px) 
+{
+}
