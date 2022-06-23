@@ -1,5 +1,18 @@
 /* for title and logo */
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
+
 /* for other text */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/* for title and logo */
+.titlefonts {
+    font-family: 'Shrikhand', cursive, sans-serif;
+}
+
+
+/* for other text */
+.basefonts {
+    font-family: 'Roboto', sans-serif;
+}
