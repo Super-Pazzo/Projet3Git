@@ -14,22 +14,22 @@
         <div class="bgheader ">
             <div class = "logobg dflexcenter">
                 <a href="#">
-                    <h1 class="titlefonts dflexcenter">Ohmyfood</h1>
+                    <h1 class="titlefonts dflexcenter colortext">Ohmyfood</h1>
                 </a>
             </div>
             <div class="navbg dflexcenter">
                 <div class="blocnav dflexcenter">
                     <i class="fa-solid fa-location-dot pad10 navcolor"></i>
-                    <a class ="pad10 navcolor" href="#">
+                    <a class ="pad10 navcolor colortext" href="#">
                         <p>Paris, Belleville</p>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="introbg dflexcenter">
+        <div class="introbg dflexcenter bgcolor">
             <div class="introtext dflexcenter">
                 <h2 class="mb10">Réservez le menu qui vous convient</h2>
-                <p class="navcolor">Découvrez des restaurants d'exceptions, sélectionnés par nos soins</p>
+                <p class="subcolor">Découvrez des restaurants d'exceptions, sélectionnés par nos soins</p>
                 <form action="#"> <!--go to restaurants section -->
                     <input class="explorebtn" type="submit" value="Explorer nos restaurants">
                 </form>
@@ -37,17 +37,41 @@
         </div>
     </header>
     <!--END HEADER -->
+
+    <!-- STart MAIN-->
     <main class="main">
-        <div class="selectbloc ">
-            <h2>Fonctionnement</h2>
-            <div class="btnfonctbloc">
-                <div class="btnfonct">
-                    <p>1</p>
+        <div class="fonctbloc mb20">
+            <p class="foncttitle h2fonts mb40 dflexcenter">Fonctionnement</p>
+            <section class="fonctcontent flexcol">
+                <div class="fonctbtn bgcolor">
+                    <div class="fonctnum">
+                        <p>1</p>
+                    </div>
+                    <label class="fonctimg bgcolor">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </label>
+                    <p class= "foncttext">Choisissez un restaurant</p>
                 </div>
-                <form action="#"> <!--go to restaurants section -->
-                    <input class="explorebtn" type="submit" value="Explorer nos restaurants">
-                </form>
-            </div>
+                <div class="fonctbtn bgcolor">
+                    <div class="fonctnum">
+                        <p>1</p>
+                    </div>
+                    <label class="fonctimg">
+                        <i class="fa-solid fa-list"></i>
+                    </label>
+                    <p class= "foncttext">Composez votre menu</p>
+                </div>
+                <div class="fonctbtn" id="fonctbtnactiv">
+                    <div class="fonctnum">
+                        <p>1</p>
+                    </div>
+                    <label class="fonctimg" id="iconactiv">
+                        <i class="fa-solid fa-store foncticon" ></i>
+                    </label>
+                    <!-- select-->
+                    <p class= "foncttext">Dégustez au restaurant</p>
+                </div>
+            </section>
         </div>
     </main>
 
