@@ -31,7 +31,6 @@ box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
 }
 
 .introtext h2 {
-    font-size: 28px;
     font-weight: bold;
 }
 
@@ -42,18 +41,30 @@ box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
 
 /*-- button --*/
 .explorebtn {
-    padding: 15px;
+    padding: 12px;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
-    background: linear-gradient(170deg, #FF79DA, #9356DC );
     color: white;
+    background: linear-gradient(170deg, #FF79DA, #9356DC );
     border: none;
+    box-shadow: 0px 3x 7px 0px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
+    transition-duration: 1s;
+    
 }
-
 .explorebtn:hover {
+  
+    background: linear-gradient(170deg, #fc80d9, #9860db  );
     cursor: pointer;
-    background: linear-gradient(170deg, #9356DC,#FF79DA );
+    background-color: white;
+    box-shadow: 0px 4x 7px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.5);
+    
+
+
 }
 
 

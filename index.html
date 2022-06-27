@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./public/css/index.css">
+    <meta name="description" content="Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants.">
     <script src="https://kit.fontawesome.com/1a176ffd02.js" crossorigin="anonymous"></script>
-    <title>Accueil</title>
+    <title>Accueil - ohmyfood</title>
 </head>
 <body>
     <!--header and nav-->
@@ -20,15 +21,13 @@
             <div class="navbg dflexcenter">
                 <div class="blocnav dflexcenter">
                     <i class="fa-solid fa-location-dot pad10 navcolor"></i>
-                    <a class ="pad10 navcolor colortext" href="#">
-                        <p>Paris, Belleville</p>
-                    </a>
+                        <p class ="pad10">Paris, Belleville</p>
                 </div>
             </div>
         </div>
         <div class="introbg dflexcenter bgcolor">
             <div class="introtext dflexcenter">
-                <h2 class="mb10">Réservez le menu qui vous convient</h2>
+                <h2 class="mb10 h2fonts">Réservez le menu qui vous convient</h2>
                 <p class="subcolor">Découvrez des restaurants d'exceptions, sélectionnés par nos soins</p>
                 <form action="#"> <!--go to restaurants section -->
                     <input class="explorebtn" type="submit" value="Explorer nos restaurants">
@@ -40,39 +39,28 @@
 
     <!-- STart MAIN-->
     <main class="main">
-        <div class="fonctbloc mb20">
-            <p class="foncttitle h2fonts mb40 dflexcenter">Fonctionnement</p>
-            <section class="fonctcontent flexcol">
-                <div class="fonctbtn bgcolor">
-                    <div class="fonctnum">
-                        <p>1</p>
-                    </div>
-                    <label class="fonctimg bgcolor">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                    </label>
-                    <p class= "foncttext">Choisissez un restaurant</p>
-                </div>
-                <div class="fonctbtn bgcolor">
-                    <div class="fonctnum">
-                        <p>1</p>
-                    </div>
-                    <label class="fonctimg">
-                        <i class="fa-solid fa-list"></i>
-                    </label>
-                    <p class= "foncttext">Composez votre menu</p>
-                </div>
-                <div class="fonctbtn" id="fonctbtnactiv">
-                    <div class="fonctnum">
-                        <p>1</p>
-                    </div>
-                    <label class="fonctimg" id="iconactiv">
-                        <i class="fa-solid fa-store foncticon" ></i>
-                    </label>
-                    <!-- select-->
-                    <p class= "foncttext">Dégustez au restaurant</p>
-                </div>
-            </section>
-        </div>
+        <section class="fonctbloc">
+            <div class="fonctcontent">
+                <h2 class="foncttitle h2fonts mb40 mt20">Fonctionnement</h2>
+                <ol class="fonctcard dflex">
+                    <li class="fonctnum">
+                        <span class="numcircle">1</span>
+                        <i class="fa-mobile-alt fas tuto__icon subcolor"></i>
+                        <span class="foncttext">Choisissez un restaurant</span>
+                    </li>
+                    <li class="fonctnum">
+                        <span class="numcircle">2</span>
+                        <i class="fa-list-ul fas tuto__icon subcolor"></i>
+                        <span class="foncttext">Composez votre menu</span>
+                    </li>
+                    <li class="fonctnum" id="fonctnum3">
+                        <span class="numcircle">3</span>
+                        <i class="fa-store fas tuto__icon " id="iconstore"></i>
+                        <span class="foncttext">Dégustez au restaurant</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
     </main>
 
 </body>
