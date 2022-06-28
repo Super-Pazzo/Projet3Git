@@ -8,6 +8,11 @@
 .titlefonts {
     font-family: 'Shrikhand', sans-serif;
     font-size: 40px;
+    font-weight: lighter;
+}
+
+.titlefontsfamily {
+    font-family: 'Shrikhand', sans-serif;
 }
 
 * {
