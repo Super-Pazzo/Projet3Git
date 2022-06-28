@@ -2,11 +2,7 @@
 .fonctbloc {
     padding: 20px 20px;
 }
-    .fonctcontent {
-        max-width: 1380px;
-        margin: auto;
-        position: relative;
-    }
+
 
 .fonctcard{
     justify-content: space-between;
@@ -20,9 +16,7 @@
         position: relative;
         flex-basis: 30%;
         margin: 0 10px;
-        box-shadow: 0px 3x 7px 0px rgba(0, 0, 0, 0.178);
-        -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.178);
-        -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.158);
+        
     }
     .numcircle {
         background: #9356DC;
@@ -41,14 +35,19 @@
         margin:0 15px 0 5px;
 
     }
+    .foncttext {
+        font-size: 20px;
+    } 
 
 #fonctnum3 {
-    background: #9256dc11;
+    background: #9256dc1e;
 }
 
 #iconstore {
     color: #9356DC;
 }
+
+
 @media screen and (max-width : 768px) 
 {
 }

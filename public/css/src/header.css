@@ -41,22 +41,19 @@ box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
 
 /*-- button --*/
 .explorebtn {
-    padding: 12px;
+    padding: 20px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     color: white;
-    background: linear-gradient(170deg, #FF79DA, #9356DC );
+    background: linear-gradient(170deg, #FF79DA, #975cdf );
     border: none;
-    box-shadow: 0px 3x 7px 0px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
-    -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
     transition-duration: 1s;
     
 }
 .explorebtn:hover {
   
-    background: linear-gradient(170deg, #fc80d9, #9860db  );
+    background: linear-gradient(170deg, #fd87dc, #9860db  );
     cursor: pointer;
     background-color: white;
     box-shadow: 0px 4x 7px 0px rgba(0, 0, 0, 0.5);

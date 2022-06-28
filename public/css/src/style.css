@@ -19,6 +19,10 @@
     padding: 10px;
 }
 
+.pad20 {
+    padding: 20px;
+}
+
 .mb10 {
     margin-bottom: 10px;
 }
@@ -33,6 +37,10 @@
 
 .mt20 {
     margin-top: 20px;
+}
+
+.mt40 {
+    margin-top: 40px;
 }
 
 .m20 {
@@ -57,8 +65,14 @@
     color: rgb(110, 110, 110);
 }
 
-.shadowbg {
-    box-shadow: 0px 3x 7px 0px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
-    -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.31);
+.bgcontainer {
+    max-width: 1380px;
+    margin: auto;
+    position: relative;
+}
+
+.boxshadow {
+    box-shadow: 0px 3x 7px 0px rgba(0, 0, 0, 0.178);
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.178);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.158);
 }
