@@ -4,11 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./public/css/main.css">;
-    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="./public/css/index.css">
+    <meta name="description" content="Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants.">
+    <script src="https://kit.fontawesome.com/1a176ffd02.js" crossorigin="anonymous"></script>
+    <title>Accueil - ohmyfood</title>
 </head>
 <body>
-<!--logo and title-->
+    <!--header and nav-->
+    <header class="header">
+        <div class="bgheader ">
+            <div class="logobg">
+                <div class = "dflexcenter">
+                    <a href="#">
+                        <h1 class="titlefonts dflexcenter colortext">Ohmyfood</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="navbg dflexcenter">
+                <div class="blocnav dflexcenter">
+                    <i class="fa-solid fa-location-dot pad10 navcolor"></i>
+                        <p class ="pad10">Paris, Belleville</p>
+                </div>
+            </div>
+        </div>
+        <div class="introbg dflexcenter bgcolor">
+            <div class="introtext dflexcenter">
+                <h2 class="mb10 h2fonts">Réservez le menu qui vous convient</h2>
+                <p class="subcolor">Découvrez des restaurants d'exceptions, sélectionnés par nos soins</p>
+                <form action="#"> <!--go to restaurants section -->
+                    <input class="explorebtn boxshadow" type="submit" value="Explorer nos restaurants">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--END HEADER -->
+
+    <!-- STart MAIN-->
+    <main class="main">
+        <section class="fonctbloc mb40">
+            <div class="fonctcontent bgcontainer">
+                <h2 class="foncttitle h2fonts mb40 mt20">Fonctionnement</h2>
+                <ol class="fonctcard dflex">
+                    <li class="fonctnum boxshadow">
+                        <span class="numcircle">1</span>
+                        <i class="fa-solid fa-mobile-screen-button subcolor"></i>
+                        <span class="foncttext">Choisissez un restaurant</span>
+                    </li>
+                    <li class="fonctnum boxshadow">
+                        <span class="numcircle">2</span>
+                        <i class="fa-solid fa-list subcolor"></i>
+                        <span class="foncttext">Composez votre menu</span>
+                    </li>
+                    <li class="fonctnum boxshadow" id="fonctnum3">
+                        <span class="numcircle">3</span>
+                        <i class="fa-solid fa-store" id="iconstore"></i>
+                        <span class="foncttext">Dégustez au restaurant</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="restaurants bgcolor">
+            <div class="rastaubloc bgcontainer  ">
+                <h2 class="h2fonts mb20 mt20">Restaurants</h2>
+                <div class="restaubg dflex ">
+                    <a class="restaucard boxshadow mb20" href="#">
+                        <img class="restauimg" src="./public/img/Restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="jay-wennington">
+                        <span class="restaunew">Nouveau</span>
+                        <div class="restaufooter dflex">   
+                            <div class="restautext pad20">
+                                <h3 class="restausubt mb10">La palette du goût</h3>
+                                <p class="restausubtext subcolor">Ménilmontant</p>
+                            </div>
+                            <i class="fa-2x fa-heart far restauicon subcolor resticonpos"></i>
+                            <i class="fa-2x fa-solid fa-heart restauicon2 resticonpos"></i>
+                        </div>
+                    </a>
+                    <a class="restaucard boxshadow mb20" href="#">
+                        <img class="restauimg" src="./public/img/Restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="stil">
+                        <span class="restaunew">Nouveau</span>
+                        <div class="restaufooter dflex">   
+                            <div class="restautext pad20">
+                                <h3 class="restausubt mb10">La note enchantée</h3>
+                                <p class="restausubtext subcolor">Charonne</p>
+                            </div>
+                            <i class="fa-2x fa-heart far restauicon subcolor resticonpos"></i>
+                            <i class="fa-2x fa-solid fa-heart restauicon2 resticonpos"></i>
+                        </div>
+                    </a>
+                    <a class="restaucard boxshadow mb20" href="#">
+                        <img class="restauimg" src="./public/img/Restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="toa-heftiba">
+                        <div class="restaufooter dflex">   
+                            <div class="restautext pad20">
+                                <h3 class="restausubt mb10">À la française</h3>
+                                <p class="restausubtext subcolor">Cité Rouge</p>
+                            </div>
+                            <i class="fa-2x fa-heart far restauicon subcolor resticonpos"></i>
+                            <i class="fa-2x fa-solid fa-heart restauicon2 resticonpos"></i>
+                        </div>
+                    </a>
+                    <a class="restaucard boxshadow mb20" href="#">
+                        <img class="restauimg" src="./public/img/Restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="louis-hansel">
+                        <div class="restaufooter dflex">   
+                            <div class="restautext pad20">
+                                <h3 class="restausubt mb10">Le décile des sens</h3>
+                                <p class="restausubtext subcolor">Folie-Méricourt</p>
+                            </div>
+                            <i class="fa-2x fa-heart far restauicon subcolor resticonpos"></i>
+                            <i class="fa-2x fa-solid fa-heart restauicon2 resticonpos"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footers">
+        <div class="footerbloc bgcontainer">
+            <h2 class="titlefontsfamily mb20">ohmyfood</h2>
+            <ul class="footerlink">
+                <li class="mb10">
+                    <a href="#">
+                        <i class="fa-solid fa-utensils footicon"></i>Proposer un restaurant
+                    </a>
+                </li>
+                <li class="mb10">
+                    <a href="#">
+                        <i class="fa-solid fa-handshake-angle footicon"></i>Devenir partenaire
+                    </a>
+                </li>
+                <li class="mb10"><a href="#">Mentions légales</a></li>
+                <li class="mb10"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
 
 </body>
 </html>

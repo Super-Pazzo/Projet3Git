@@ -1,4 +1,10 @@
 @import "./src/fonts.css";
+@import "./src/header.css";
+@import "./src/style.css";
+@import "./src/fonct.css";
+@import "./src/restaurants.css";
+@import "./src/footer.css";
+
 
 
 @media screen and (max-width : 768px) 
