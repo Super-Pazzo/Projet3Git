@@ -53,7 +53,7 @@ box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
 }
 .explorebtn:hover {
   
-    background: linear-gradient(170deg, #fd87dc, #9860db  );
+    filter: brightness(1.2);
     cursor: pointer;
     background-color: white;
     box-shadow: 0px 4x 7px 0px rgba(0, 0, 0, 0.5);
