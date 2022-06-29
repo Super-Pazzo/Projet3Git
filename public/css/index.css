@@ -6,12 +6,85 @@
 @import "./src/footer.css";
 
 
+body {
+    background: white;
+}
+
+.loading {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    animation: loading 4s;
+    background: rgba(255, 255, 255, 0.774);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes loading {
+
+    100% {
+        z-index: -10;
+    }
+  }
+  
+
+  .dotload {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    animation: dotload 3s ;
+    animation-iteration-count: 1;  
+
+}
+
+  .c1 {
+    background-color: #9356DC ;
+    left: 8px;
+    animation-delay: -0.24s;
+    
+  }
+  .c2 {
+    background-color: #FF79DA  ;
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .c3 {
+    background-color: #99E2D0;
+    left: 56px;
+    animation-delay: 0s;
+  }
+
+  
+  @keyframes dotload {
+    0%, 100% {
+      filter: brightness(2) ;
+    }
+    0% {
+      transform: scaleY(4);
+      filter: brightness(1);
+    }
+    50% {
+      transform: scaleX(1);
+      filter: brightness(2);
+    }
+    100% {
+      transform: scaleY(4);
+      filter: brightness(1);
+      
+    }
+  }
+
+
+
 
 @media screen and (max-width : 768px) 
 {
 }
-
-
 
 
 @media screen and (max-width : 991px) 
