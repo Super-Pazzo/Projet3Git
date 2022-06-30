@@ -1,0 +1,31 @@
+
+.mainmenus {
+    padding: 100px;
+    position: relative;
+    top: -50px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.menutitle {
+    position: relative;
+}
+
+.restaunametitle {
+    flex-basis: 90%;
+}
+
+
+.menustitle i{
+    position: absolute;
+    right: 40px;
+    top: 45px;
+}
+
+
+@media screen and (max-width : 411px) 
+{
+    .mainmenus {
+    }
+
+}
