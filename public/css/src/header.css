@@ -1,15 +1,17 @@
 /*-- for all screen--*/
 
 /*-- logo and nav --*/
-.bgheader {
-    background: rgb(226, 226, 226);
-    height: 150px;
-}
+
 
 .logobg {
 background: rgb(255, 255, 255);
 height: 100px;
-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
+}
+
+.bgheader {
+    background: rgb(226, 226, 226);
+
+
 }
 
 
@@ -43,6 +45,7 @@ box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.507);
 .explorebtn {
     padding: 20px;
     border-radius: 30px;
+    width: 250px;
     font-size: 18px;
     margin-top: 20px;
     color: white;

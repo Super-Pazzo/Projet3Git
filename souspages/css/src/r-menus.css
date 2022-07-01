@@ -1,0 +1,105 @@
+@media screen and (max-width : 768px) 
+{
+    
+    .mainmenus {
+        padding: 100px;
+        position: relative;
+        margin-top: -50px;
+        border-radius: 50px 50px 0 0;
+        padding: 30px;
+    }
+
+    .menutitle {
+        position: relative;
+    }
+        .restaunametitle {
+            flex-basis: 80%;
+        }
+        .menustitle i{
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            font-size: 25px;
+            flex-basis: 10%;
+        }
+
+    .submenutitle {
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+    }
+    .subdeco {
+        background: #99E2D0;
+        height: 4px;
+        width: 60px;
+    }
+
+
+    .submenubloc {
+        display: flex;
+        background: white;
+        margin-top: 20px;
+        padding: 20px;
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+        cursor: pointer;
+        transition: width 3s;
+    }
+
+    .menubloctext {
+        flex-basis: 100%;
+    }
+
+    .textoverflow {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+    .menuprice {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        font-weight: 500;
+    }
+
+    /*validation*/
+
+    .validation {
+        display: flex;
+        background-color: #99E2D0;
+        justify-content: center;
+        align-items: center;
+        width: 0px;
+        margin:-20px -0px -0px 15px;
+        border-radius: 0 20px 20px 0;
+        opacity: 0;
+        transition: width 0.3s;
+    }
+        .validicon {
+            background-color: white;
+            border-radius: 50%;
+            color: #99E2D0;
+            padding: 5px;
+            transform: rotate(-180deg);
+            transition-duration: .5s;
+        }
+        
+    /*validation animation*/  
+        .submenubloc:hover .validation {
+            opacity: 1;
+            width: 90px;
+            margin:-20px -20px -20px 10px;
+        }
+
+
+        .submenubloc:hover .validicon {
+            transform: rotate(-0);
+        }
+
+        .commandbutton form {
+            justify-content: center;
+        }
+}

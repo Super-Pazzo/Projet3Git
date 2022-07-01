@@ -1,0 +1,13 @@
+.restauicon2 {
+    opacity: 0.1;
+    color: white;
+}
+
+.restauicon2:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+    background: linear-gradient(170deg, #FF79DA, #9356DC );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

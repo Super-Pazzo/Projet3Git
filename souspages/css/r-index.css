@@ -1,0 +1,24 @@
+@import "../../public/css/src/fonts.css";
+@import "../../public/css/src/style.css";
+@import "../../public/css/src/header.css";
+@import "./src/r-header.css";
+@import "./src/r-menus.css";
+@import "../../public/css/src/animations.css";
+@import "../../public/css/src/footer.css";
+
+
+
+@media screen and (max-width : 768px) 
+{
+}
+
+
+@media screen and (max-width : 991px) 
+{
+}
+
+
+
+@media screen and (min-width : 992px) 
+{
+}

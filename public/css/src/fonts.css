@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 /* for other text */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 
 .titlefonts {
     font-family: 'Shrikhand', sans-serif;
     font-size: 40px;
+    font-weight: lighter;
+}
+
+.subtitilefonts {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 30px;
     font-weight: lighter;
 }
 
