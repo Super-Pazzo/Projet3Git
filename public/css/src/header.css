@@ -45,6 +45,7 @@ height: 100px;
 .explorebtn {
     padding: 20px;
     border-radius: 30px;
+    width: 250px;
     font-size: 18px;
     margin-top: 20px;
     color: white;
