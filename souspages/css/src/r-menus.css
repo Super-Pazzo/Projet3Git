@@ -1,4 +1,5 @@
-@media screen and (max-width : 768px) 
+/* for mobile and tablet */
+@media screen and (min-width : 100px) 
 {
     
     .mainmenus {
@@ -36,7 +37,6 @@
 
 
     .submenubloc {
-        display: flex;
         background: white;
         margin-top: 20px;
         padding: 20px;
@@ -68,7 +68,6 @@
     /*validation*/
 
     .validation {
-        display: flex;
         background-color: #99E2D0;
         justify-content: center;
         align-items: center;
@@ -102,4 +101,10 @@
         .commandbutton form {
             justify-content: center;
         }
+}
+
+/* for dekstop */
+@media screen and (min-width : 992px) 
+{
+
 }

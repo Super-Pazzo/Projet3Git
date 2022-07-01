@@ -6,7 +6,7 @@
 @import "./src/footer.css";
 @import "./src/animations.css";
 
-
+/*-- anim for alls screen--*/
 
 .loading {
     display: flex;
@@ -77,20 +77,3 @@
     }
   }
 
-
-
-
-@media screen and (max-width : 768px) 
-{
-}
-
-
-@media screen and (max-width : 991px) 
-{
-}
-
-
-
-@media screen and (min-width : 992px) 
-{
-}

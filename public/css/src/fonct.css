@@ -1,62 +1,65 @@
-
-.fonctbloc {
-    padding: 60px 20px;
-    background: white;
-}
-
-
-.fonctcard{
-    justify-content: space-between;
-}
-    .fonctnum {
-        list-style: none;
-        background-color: rgb(247, 247, 247);
-        padding: 25px;
-        border-radius: 20px;
-        display: inline-block;
-        position: relative;
-        flex-basis: 30%;
-        margin: 0 10px;
-        
-    }
-    .numcircle {
-        background: #9356DC;
-        width: 25px;
-        height: 25px;
-        position: absolute;
-        left: -11px;
-        text-align: center;
-        border-radius: 25px;
-        color: white;
-        padding: 3px;
-        font-size: 16px;
-        
-    }
-    .fonctnum i {
-        margin:0 15px 0 5px;
-
-    }
-    .foncttext {
-        font-size: 18px;
-    } 
-
-#fonctnum3 {
-    background: #9256dc1e;
-}
-
-#iconstore {
-    color: #9356DC;
-}
-
-
-@media screen and (max-width : 768px) 
+@media screen and (min-width : 100px) 
 {
+    .fonctbloc {
+        padding: 60px 20px;
+        background: white;
+    }
+    
+    
+    .fonctcard{
+        justify-content: space-between;
+    }
+        .fonctnum {
+            list-style: none;
+            background-color: rgb(247, 247, 247);
+            padding: 25px;
+            border-radius: 20px;
+            display: inline-block;
+            position: relative;
+            flex-basis: 30%;
+            margin: 0 10px;
+            
+        }
+        .numcircle {
+            background: #9356DC;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            left: -11px;
+            text-align: center;
+            border-radius: 25px;
+            color: white;
+            padding: 3px;
+            font-size: 16px;
+            
+        }
+        .fonctnum i {
+            margin:0 15px 0 5px;
+    
+        }
+        .foncttext {
+            font-size: 18px;
+        } 
+    
+    #fonctnum3 {
+        background: #9256dc1e;
+    }
+    
+    #iconstore {
+        color: #9356DC;
+    }
 }
 
+/*-- for tablet screen--*/
+@media screen and (min-width : 769px) 
+{
+    .fonctbloc {
+        padding: 60px 80px;
+        }
+}
 
-
-
-@media screen and (max-width : 998px) 
+/*-- for dekstop screen--*/
+@media screen and (max-width : 1113px) 
 {
     .fonctcard {
     flex-direction: column;
