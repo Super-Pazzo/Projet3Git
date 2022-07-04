@@ -7,19 +7,71 @@
 @import "./src/r-menus.css";
 
 
+/* Animation menus*/ 
+.anim1 {
+    animation: anim1 2s;
+    animation-delay: 0s;
 
+}
 
-@media screen and (max-width : 768px) 
-{
+@keyframes anim1 {
+
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
 
 
-@media screen and (max-width : 991px) 
-{
+
+.anim2 {
+    animation: anim1 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+
 }
 
+@keyframes anim2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
 
+.anim3 {
+    animation: anim1 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
 
-@media screen and (min-width : 992px) 
-{
+}
+
+@keyframes anim3 {
+
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anim4 {
+    animation: anim1 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: both;
+
+}
+
+@keyframes anim4 {
+
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
