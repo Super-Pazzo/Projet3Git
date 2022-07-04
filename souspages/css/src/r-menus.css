@@ -55,6 +55,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-size: 17px;
     }
 
 
@@ -63,6 +64,7 @@
         align-items: flex-end;
         justify-content: flex-end;
         font-weight: 500;
+        margin-left: 10px;
     }
 
     /*validation*/
@@ -72,7 +74,7 @@
         justify-content: center;
         align-items: center;
         width: 0px;
-        margin:-20px -0px -0px 15px;
+        margin:-20px -0px -0px 5px;
         border-radius: 0 20px 20px 0;
         opacity: 0;
         transition: width 0.3s;
@@ -106,5 +108,22 @@
 /* for dekstop */
 @media screen and (min-width : 992px) 
 {
+    .globalmenu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuslist {
+      margin: 0;
+      width: 32%;
+    }
+
+    .submenubloc {
+        margin-right: 20px;
+    }
+
+    .middlemenu  {
+        margin: 0 20px;
+    }
 
 }
