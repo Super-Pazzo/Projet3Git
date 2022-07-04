@@ -7,7 +7,7 @@
 @import "./src/r-menus.css";
 
 
-
+/* Animation menus*/ 
 .anim1 {
     animation: anim1 2s;
     animation-delay: 0s;
@@ -50,6 +50,23 @@
 }
 
 @keyframes anim3 {
+
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.anim4 {
+    animation: anim1 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: both;
+
+}
+
+@keyframes anim4 {
 
     0% {
         opacity: 0;
