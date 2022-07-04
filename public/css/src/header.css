@@ -1,87 +1,67 @@
-/*-- for all screen--*/
+/*-- for mobile screen and others--*/
 
 /*-- logo and nav --*/
-
-
-.logobg {
-background: rgb(255, 255, 255);
-height: 100px;
-}
-
-.bgheader {
-    background: rgb(226, 226, 226);
-
-
-}
-
-
-.logobg h1 {
-    padding-top: 20px;
-}
-
-.navbg {
-    padding: 5px;
-}
-
-
-/*-- introbg --*/
-
-.introtext {
-    text-align: center;
-    margin: 50px 40px;
-    flex-direction: column;
-}
-
-.introtext h2 {
-    font-weight: bold;
-}
-
-.introtext p {
-    font-size: 20px;
-    font-weight: 300;
-}
-
-/*-- button --*/
-.explorebtn {
-    padding: 20px;
-    border-radius: 30px;
-    width: 250px;
-    font-size: 18px;
-    margin-top: 20px;
-    color: white;
-    background: linear-gradient(170deg, #FF79DA, #975cdf );
-    border: none;
-    transition-duration: 1s;
-    
-}
-.explorebtn:hover {
-  
-    filter: brightness(1.2);
-    cursor: pointer;
-    background-color: white;
-    box-shadow: 0px 4x 7px 0px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.5);
-    
-
-
-}
-
-
-
-@media screen and (max-width : 768px) 
+@media screen and (min-width : 100px) 
 {
+    .logobg {
+        background: rgb(255, 255, 255);
+        height: 100px;
+        }
+        
+        .bgheader {
+            background: rgb(226, 226, 226);
+        }
+        
+        
+        .logobg h1 {
+            padding-top: 20px;
+        }
+        
+        .navbg {
+            padding: 5px;
+        }
+        
+        
+        /*-- introbg --*/
+        
+        .introtext {
+            text-align: center;
+            margin: 50px 40px;
+            flex-direction: column;
+        }
+        
+        .introtext h2 {
+            font-weight: bold;
+        }
+        
+        .introtext p {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        /*-- button --*/
+        .explorebtn {
+            padding: 20px;
+            border-radius: 30px;
+            width: 250px;
+            font-size: 18px;
+            margin-top: 20px;
+            color: white;
+            background: linear-gradient(170deg, #FF79DA, #975cdf );
+            border: none;
+            transition-duration: 1s;
+            
+        }
+        .explorebtn:hover {
+          
+            filter: brightness(1.2);
+            cursor: pointer;
+            background-color: white;
+            box-shadow: 0px 4x 7px 0px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.5);
+        
+        
+        }
 }
 
-
-
-
-@media screen and (max-width : 991px) 
-{
-}
-
-
-
-@media screen and (min-width : 992px) 
-{
-}
