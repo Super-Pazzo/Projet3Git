@@ -30,10 +30,6 @@
             flex-direction: column;
         }
         
-        .introtext h2 {
-            font-weight: bold;
-        }
-        
         .introtext p {
             font-size: 20px;
             font-weight: 300;
