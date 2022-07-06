@@ -16,13 +16,20 @@
     z-index: 100;
     justify-content: center;
     align-items: center;
-    animation: loading 4s;
+    animation: loading 2s;
     background: rgba(255, 255, 255, 0.849);
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }
 
 @keyframes loading {
+    0% {
+      z-index: 100;
+    }
+
+    99% {
+      z-index: 100;
+    }
 
     100% {
         z-index: -100;
@@ -35,8 +42,8 @@
     width: 20px;
     height: 20px;
     margin: 5px;
-    animation: dotload 3s ;
-    animation-iteration-count: 1;  
+    animation: dotload 1s ;
+    animation-iteration-count: 3;  
 
 }
 
